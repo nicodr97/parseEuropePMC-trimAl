@@ -16,7 +16,7 @@ Python 3.5 or later is needed. The script depends on standard libraries, plus th
 * The creation of a virtual environment and installation of the dependencies in that environment is done running:
 
 ```bash
-python3 -m venv .pyXMLenv
+python3 -m venv .pyDBenv
 source .pyDBenv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
@@ -37,7 +37,7 @@ options:
                         Required. Database Name where the data will be stored. Not possible to
                         update the database. It should have '.db' sufix
   -i INPUT, --input INPUT
-                        Required. File with all the PMID that will be inputed to the API. If you
+                        Required. File with all the PMCID that will be inputed to the API. If you
                         write 'all', this script will parse all OpenAccess XML files
 
  ```
