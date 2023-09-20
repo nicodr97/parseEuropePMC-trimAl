@@ -7,7 +7,7 @@ The metadata outputed is the following: ISSN PPUB, ISSN EPUB, Journal Title and 
 
 All the data is then stored in a SQLite database.
 
-The only needed information are PMCIDs although PMIDs can also be used. In that case you will first need to download the [file](https://ftp.ncbi.nlm.nih.gov/pub/pmc/PMC-ids.csv.gz) to convert from one to another.
+The only needed information are PMCIDs although PMIDs can also be used. In that case you will first need to download the [file](https://ftp.ncbi.nlm.nih.gov/pub/pmc/PMC-ids.csv.gz) to convert from one to another. This is conversion is automatically done with the parameter `--pmc`.
  
 Python 3.5 or later is needed. The script depends on standard libraries, plus the ones declared in [requirements.txt](requirements.txt).
  
