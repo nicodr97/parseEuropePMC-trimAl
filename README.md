@@ -3,7 +3,7 @@ Script to extract the text from different sections and other metadata of the ava
 
 It extracts the content from the following sections in text format: Introduction, Methods, Results and Discussion. You are able to change the code and extract the sections in XML format. It also retrieves the Supplementary data in XML format.
 
-The metadata outputed is the following: ISSN PPUB, ISSN EPUB, Journal Title and Publisher Name.
+The metadata outputed is the following: version, parameters, keywords and year.
 
 All the data is then stored in a SQLite database.
 
