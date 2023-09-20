@@ -39,5 +39,6 @@ options:
   -i INPUT, --input INPUT
                         Required. File with all the PMCID that will be inputed to the API. If you
                         write 'all', this script will parse all OpenAccess XML files
+  --pmc                 Pass PMIDs instead of PMCIDs
 
  ```
