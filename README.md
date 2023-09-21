@@ -1,4 +1,4 @@
-# parseEuropePMC-FullXML
+# parseEuropePMC-trimAl
 Script to extract the text from different sections and other metadata of the available Full text XML files from EuropePMC.
 
 It extracts the content from the following sections in text format: Introduction, Methods, Results and Discussion. You are able to change the code and extract the sections in XML format. It also retrieves the Supplementary data in XML format.
